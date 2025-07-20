@@ -72,9 +72,13 @@ public class AccountFrame extends JFrame {
         citiesCMBMDL.addElement(new City("Charbagh","Lucknow"));
         citiesCMBMDL.addElement(new City("Balaganj","Lucknow"));
         citiesCMBMDL.addElement(new City("Budheshwar","Lucknow"));
+        citiesCMBMDL.addElement(new City("Guna","Guna"));
+        citiesCMBMDL.addElement(new City("Ruthiyai","Guna"));
+        citiesCMBMDL.addElement(new City("Sada","Guna"));
         citiesCMBMDL.addElement(new City("Dothan","Atlanta"));
         citiesCMBMDL.addElement(new City("Panama","Florida"));
         citiesCMBMDL.addElement(new City("Miami","Florida"));
+        
 
         // Adding data to JCOMBOBOX
         citiesCMB = new JComboBox<City>(citiesCMBMDL);
